@@ -198,6 +198,7 @@ header nav li:last-of-type a{
  }
  .ure{
      background-color:aquamarine;
+     max-width: none;
  }
 
 

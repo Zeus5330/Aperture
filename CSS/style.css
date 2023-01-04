@@ -195,6 +195,7 @@ header nav li:last-of-type a{
 
  .usersh{
      background-color: beige;
+     display: inline-flex;
  }
 
 

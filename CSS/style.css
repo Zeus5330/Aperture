@@ -195,6 +195,10 @@ header nav li:last-of-type a{
      padding-bottom: 100px;
      background-color: #000000;
  }
+ .step{
+     margin-bottom: 16px;
+
+ }
  .what_we_do .container{
      max-width: 1168px;
  }
@@ -291,6 +295,100 @@ header nav li:last-of-type a{
 .btn_st{
     margin: 0;
 }
+.mountain{
+    height: 600px;
+    background-image: url("../images/IMAGE mo.jpg");
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.container_mo{
+    max-width: 298px;
+    margin-right: 62px;
+}
+.container_mo h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 5px;
+}
+.container_mo p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+.green_sheet{
+    height: 600px;
+    background-image: url("../images/IMAGE sheet.jpg");
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.green_s{
+    max-width: 298px;
+    margin-right: 62px;
+}
+.green_s h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 5px;
+}
+.green_s p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+.mountains_star{
+    height: 600px;
+    background-image: url("../images/IMAGE star.jpg");
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.star_s{
+    max-width: 298px;
+    margin-right: 62px;
+}
+.star_s h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 5px;
+}
+.star_s p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+
+
+
+
 
 
 

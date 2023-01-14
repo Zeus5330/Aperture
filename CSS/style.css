@@ -57,6 +57,7 @@ header nav li:last-of-type a{
     align-items: flex-end;
     padding-bottom: 70px;
     block-size: border-box;
+    position: relative;
 }
 .container_im{
     max-width: 580px;
@@ -301,6 +302,7 @@ header nav li:last-of-type a{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    position: relative;
 }
 .container_mo{
     max-width: 298px;
@@ -331,6 +333,7 @@ header nav li:last-of-type a{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    position: relative;
 }
 .green_s{
     max-width: 298px;
@@ -361,6 +364,7 @@ header nav li:last-of-type a{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    position: relative;
 }
 .star_s{
     max-width: 298px;
@@ -548,6 +552,100 @@ form button{
     margin-right: 10px;
     margin-left: 10px;
 }
+.position_icon{
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+    display: flex;
+    list-style: none;
+}
+.position_icon li{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+    margin-left: 16px;
+}
+.position_icon li:before{
+    content: "";
+    display: inline-block;
+    background-image: url("../images/Combined-Shape 7.svg");
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    position: relative;
+    bottom: -5px;
+}
+.position_icon li:nth-child(2):before{
+    background-image: url("../images/Combined-Shape77.svg");
+}
+.position_icon li:nth-child(3):before{
+    background-image: url("../images/Combined-Shape777.svg");
+    width: 32px;
+}
+.position_icon li:nth-child(4):before{
+    background-image: url("../images/Fill-1.svg");
+    width: 10px;
+    height: 16px;
+}
+.we_use{
+    background-color: black;
+    position: relative;
+}
+.we_use .container{
+    max-width: 1240px;
+    min-height: 540px;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+.we_use .information{
+    max-width: 514px;
+}
+.we_use .information h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+    margin-bottom: 6px;
+}
+.we_use .information h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-bottom: 14px;
+}
+.we_use .information p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.we_use .banner_we-use{
+    background-image: url("../images/IMAGE we.jpg");
+    background-size: cover;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 50%;
+    height: 100%;
+}
+
+
+
+
 
 
 

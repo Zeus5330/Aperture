@@ -98,11 +98,12 @@ header nav li:last-of-type a{
     padding-top: 113px;
     padding-bottom: 140px;
     background: #000000;
-
 }
 .first_b{
-    max-width: 100%;
- }
+    max-width: 1200px;
+    text-align: center;
+    margin: auto;
+}
 .main_b div h2{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -124,13 +125,49 @@ header nav li:last-of-type a{
     margin-bottom: 82px;
 }
 .foot_s{
+    max-width: 1168px;
+    margin: auto;
     display: flex;
-    justify-content: space-between;
-    margin: 100px 120px;
     align-items: center;
+    justify-content: space-between;
 }
 .foot_s a{
-    background: black;
+    max-width: 128px;
+    display: inline-block;
+}
+.foot_s .owl-stage{
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+.owl-carousel .owl-item{
+    padding: 0 0 0 50px;
+}
+.foot_s .owl-nav .owl-prev{
+    position: absolute;
+    left: -35px;
+    top: 30px;
+}
+.foot_s .owl-nav .owl-prev:after{
+    font-weight: 900;
+    font-size: 40px;
+    font-family: "Font Awesome 6 Free";
+    content: "\f053";
+    color: white;
+    display: inline-block;
+}
+.foot_s .owl-nav .owl-next{
+    position: absolute;
+    right: -35px;
+    top: 30px
+}
+.foot_s .owl-nav .owl-next:after{
+    font-weight: 900;
+    font-family: "Font Awesome 6 Free";
+    content: "\f054";
+    color: white;
+    font-size: 40px;
+    display: inline-block;
 }
 .sect_bloc{
     padding-top: 113px;

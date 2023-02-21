@@ -9,38 +9,43 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="CSS/owl.carousel.css">
     <link rel="stylesheet" href="CSS/owl.theme.default.css">
+    <link rel="stylesheet" href="CSS/menu.css">
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/media.css">
 </head>
 <body>
+<div id="dialog" title="Basic dialog">
+    <p>This is an animated dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the icon.</p>
+</div>
+
 <header>
     <div class="container">
-        <a href="#">
-            <img src="images/Combined-Shape.svg" alt="logo">
-        </a>
-      <nav>
-        <ul>
-            <li>
-                <a href="#">Business areas</a>
-            </li>
-            <li>
-                <a href="#">Featured images</a>
-            </li>
-            <li>
-                <a href="#">Gear cage</a>
-            </li>
-            <li>
-                <a href="#">Contact</a>
-            </li>
-            <li>
-                <a href="#">Get template</a>
-            </li>
-        </ul>
-      </nav>
+        <img class="logo" src="images/Combined-Shape.svg" alt="logo">
+        <div class="nav-but-wrap">
+            <div class="menu-icon hover-target">
+                <span class="menu-icon__line menu-icon__line-left"></span>
+                <span class="menu-icon__line"></span>
+                <span class="menu-icon__line menu-icon__line-right"></span>
+            </div>
+        </div>
+
+        <div class="nav">
+            <nav class="nav__content">
+                <ul class="nav__list">
+                    <li class="nav__list-item active-nav"><a href="#" class="hover-target">Business areas</a></li>
+                    <li class="nav__list-item"><a href="#" class="hover-target">Featured images</a></li>
+                    <li class="nav__list-item"><a href="#" class="hover-target">Gear cage</a></li>
+                    <li class="nav__list-item"><a href="#" class="hover-target">Contact</a></li>
+                    <li class="nav__list-item"><a href="#" class="hover-target">Get template</a></li>
+                </ul>
+            </nav>
+        </div>
     </div>
 </header>
+
 <main>
     <section class="top_list">
         <div class="container_im">
@@ -337,6 +342,7 @@
    </footer>
 <script src="https://kit.fontawesome.com/a2651c069f.js" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
 <script src="js/owl.carousel.js"></script>
 <script src="js/script.js"></script>
 </body>

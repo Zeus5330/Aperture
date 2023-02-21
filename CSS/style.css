@@ -2,6 +2,17 @@
     padding: 0;
     margin: 0;
 }
+.logo{
+    position: relative;
+    z-index: 99;
+}
+.ui-widget-header {
+    border: 1px solid #dddddd;
+    background: #333333;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+}
 header{
     background: #181818;
     padding: 24px 0;
